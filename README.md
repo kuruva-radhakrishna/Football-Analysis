@@ -15,7 +15,7 @@ This project focuses on AI-driven analysis of football videos, including ball tr
 Click on the links below to view each feature in action:
 
 ### 📥 Input Video
-[▶️ Input Video](https://drive.google.com/file/d/1-Tl8W59_MTYl73ClplaHfe3LY3_BangS/view?usp=drive_link)
+<video width="800" controls> <source src="https://drive.google.com/uc?id=1-GlNHWsDyfIpGpc4Hku0Z3b2OqN4MI6b" type="video/mp4"> </video>
 
 ### 🎯 Ball Tracking Output
 [▶️ Ball Tracking Output](https://drive.google.com/file/d/1-GlNHWsDyfIpGpc4Hku0Z3b2OqN4MI6b/view?usp=drive_link)
