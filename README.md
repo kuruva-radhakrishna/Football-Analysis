@@ -10,6 +10,7 @@ This project focuses on AI-driven analysis of football videos, including ball tr
 - **Voronoi Team Control**: Visualize team control over different pitch areas.
 - **Team Classification**: Classify players based on their teams.
 - **Radar View**: A tactical representation of player positions.
+- **Pitch Detection**: Detect soccer field boundaries and key points.
 
 ## Video Demonstrations
 Click on the links below to view each feature in action:
@@ -55,6 +56,19 @@ Click on the links below to view each feature in action:
   <source src="https://drive.google.com/uc?id=1-7fDtm_pqF3LTGGxTU4QkhbudLiAUDDi" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+### 🏟️ Pitch Detection
+<video width="800" controls>
+  <source src="https://drive.google.com/uc?id=YOUR_VIDEO_ID" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Run Pitch Detection
+```bash
+python main.py --source_video_path data/input.mp4 \
+--target_video_path data/output-pitch-detection.mp4 \
+--device mps --mode PITCH_DETECTION
+```
 
 ## How to Use
 1. Clone this repository.
