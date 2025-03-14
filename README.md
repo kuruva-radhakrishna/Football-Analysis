@@ -1,11 +1,25 @@
-
-
-
 # ⚽ Soccer Analytics - AI-Based Detection & Visualization
 
 This repository provides AI-powered soccer analysis through player detection, team classification, key point tracking, and spatial analysis.
 
 ## 🔍 Model Details
+
+### Models Used:
+1. **YOLOv8 (Player Detection)**  
+   Detects players, goalkeepers, referees, and the ball in the video.
+   
+2. **YOLOv8 (Pitch Detection)**  
+   Identifies the soccer field boundaries and key points.
+   
+3. **SigLIP**  
+   Extracts features from image crops of players for analysis.
+   
+4. **UMAP (Uniform Manifold Approximation and Projection)**  
+   Reduces the dimensionality of the extracted features for easier clustering and visualization.
+   
+5. **KMeans**  
+   Clusters the reduced-dimension features to classify players into two teams based on the extracted features.
+
 The Player Detection and Key Point Detection models have been trained using Roboflow's dataset and uploaded to Roboflow Universe:
 
 | Model                                    | mAP    | Precision | Recall |
@@ -60,5 +74,3 @@ To run this project, use `Football Analysis.ipynb` in the notebooks folder.
 
 ## 💡 Suggestions & Contributions
 If you have ideas for improvement, feel free to open an issue or submit a pull request. 🚀
-
-
